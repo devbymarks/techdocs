@@ -279,13 +279,13 @@ Status disponíveis: `DRAFT` (rascunho), `PUBLISHED` (publicado) e `ARCHIVED` (a
 
 ## 🗺️ Roadmap
 
-* \[ ] Implementar autenticação e autorização por função.
-* \[ ] Criar histórico de alterações e fluxo de revisão de documentos.
-* \[ ] Adicionar exportação CSV e suporte a anexos.
-* \[ ] Adicionar migrações de banco com Flyway.
-* \[ ] Implementar paginação e ordenação configurável.
-* \[ ] Documentar a API com OpenAPI/Swagger.
-* \[ ] Ampliar a cobertura de testes e validar fluxos de erro.
+* [ ] Implementar autenticação e autorização por função.
+* [ ] Criar histórico de alterações e fluxo de revisão de documentos.
+* [ ] Adicionar exportação CSV e suporte a anexos.
+* [ ] Adicionar migrações de banco com Flyway.
+* [ ] Implementar paginação e ordenação configurável.
+* [ ] Documentar a API com OpenAPI/Swagger.
+* [ ] Ampliar a cobertura de testes e validar fluxos de erro.
 
 ## 👨‍💻 Autor
 
