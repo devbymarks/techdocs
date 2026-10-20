@@ -4,17 +4,17 @@
 
 **Uma biblioteca centralizada para documentar, pesquisar e compartilhar procedimentos técnicos de TI.**
 
-[![Java](https://img.shields.io/badge/Java-21-orange?logo=openjdk&logoColor=white)](https://www.oracle.com/java/)
-[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5-brightgreen?logo=springboot&logoColor=white)](https://spring.io/projects/spring-boot)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1?logo=postgresql&logoColor=white)](https://www.postgresql.org/)
-[![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
-[![License](https://img.shields.io/badge/License-a%20definir-lightgrey)](#-licença)
+[!\[Java](https://img.shields.io/badge/Java-21-orange?logo=openjdk\&logoColor=white)](https://www.oracle.com/java/)
+[!\[Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5-brightgreen?logo=springboot\&logoColor=white)](https://spring.io/projects/spring-boot)
+[!\[PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1?logo=postgresql\&logoColor=white)](https://www.postgresql.org/)
+[!\[Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker\&logoColor=white)](https://www.docker.com/)
+[!\[License](https://img.shields.io/badge/License-a%20definir-lightgrey)](#-licença)
 
 *English description: A technical knowledge base for documenting, organizing, and searching IT procedures.*
 
 </div>
 
----
+\---
 
 ## 🎯 Sobre o projeto
 
@@ -28,31 +28,31 @@ Procedimentos de suporte, infraestrutura, banco de dados e sistemas podem ficar 
 
 ## ✨ Funcionalidades
 
-- 📊 **Dashboard:** visão geral dos documentos cadastrados, publicados, em rascunho e arquivados.
-- 📝 **Gestão de documentos:** criar, consultar, editar e excluir registros.
-- 🔎 **Pesquisa textual:** buscar por título, resumo, conteúdo, categoria ou responsável.
-- 🗂️ **Filtros:** refinar a consulta por categoria e status.
-- 🧭 **Categorias dinâmicas:** listar as categorias presentes na base.
-- 📤 **Exportação JSON:** exportar metadados dos documentos.
-- 📱 **Interface responsiva:** consultar a biblioteca em diferentes tamanhos de tela, com visualização em cartões ou lista.
-- 🧪 **Testes automatizados:** testes de integração da API com JUnit, MockMvc e H2.
-- ⚙️ **CI com GitHub Actions:** execução automatizada da suíte de testes em push para `main` e em pull requests.
-- 🐳 **Ambiente Docker Compose:** aplicação e PostgreSQL executados como serviços separados.
+* 📊 **Dashboard:** visão geral dos documentos cadastrados, publicados, em rascunho e arquivados.
+* 📝 **Gestão de documentos:** criar, consultar, editar e excluir registros.
+* 🔎 **Pesquisa textual:** buscar por título, resumo, conteúdo, categoria ou responsável.
+* 🗂️ **Filtros:** refinar a consulta por categoria e status.
+* 🧭 **Categorias dinâmicas:** listar as categorias presentes na base.
+* 📤 **Exportação JSON:** exportar metadados dos documentos.
+* 📱 **Interface responsiva:** consultar a biblioteca em diferentes tamanhos de tela, com visualização em cartões ou lista.
+* 🧪 **Testes automatizados:** testes de integração da API com JUnit, MockMvc e H2.
+* ⚙️ **CI com GitHub Actions:** execução automatizada da suíte de testes em push para `main` e em pull requests.
+* 🐳 **Ambiente Docker Compose:** aplicação e PostgreSQL executados como serviços separados.
 
 ## 🧰 Tecnologias utilizadas
 
-| Área | Tecnologias |
-|---|---|
-| Linguagem | Java 21 |
-| Backend | Spring Boot 3.5, Spring Web |
-| API | REST, Bean Validation |
-| Persistência | Spring Data JPA, Hibernate |
-| Banco de dados | PostgreSQL 16 |
-| Testes | JUnit 5, Spring Boot Test, MockMvc, H2 |
-| Frontend | HTML5, CSS3 e JavaScript |
-| Build | Maven |
-| Contêineres | Docker e Docker Compose |
-| Automação | GitHub Actions |
+|Área|Tecnologias|
+|-|-|
+|Linguagem|Java 21|
+|Backend|Spring Boot 3.5, Spring Web|
+|API|REST, Bean Validation|
+|Persistência|Spring Data JPA, Hibernate|
+|Banco de dados|PostgreSQL 16|
+|Testes|JUnit 5, Spring Boot Test, MockMvc, H2|
+|Frontend|HTML5, CSS3 e JavaScript|
+|Build|Maven|
+|Contêineres|Docker e Docker Compose|
+|Automação|GitHub Actions|
 
 ## 🏗️ Arquitetura
 
@@ -122,10 +122,10 @@ techdocs-knowledge-center/
 
 ### Pré-requisitos
 
-- Docker Engine ou Docker Desktop;
-- Docker Compose v2.
+* Docker Engine ou Docker Desktop;
+* Docker Compose v2.
 
-### 1. Baixe o projeto
+### 1\. Baixe o projeto
 
 ```bash
 git clone https://github.com/devbymarks/techdocs-knowledge-center.git
@@ -134,7 +134,7 @@ cd techdocs-knowledge-center
 
 > Se o repositório tiver outro nome ou ainda não estiver publicado, entre na pasta em que você extraiu o projeto.
 
-### 2. Configure as variáveis de ambiente
+### 2\. Configure as variáveis de ambiente
 
 Linux/macOS:
 
@@ -148,9 +148,9 @@ No Windows PowerShell:
 Copy-Item .env.example .env
 ```
 
-Edite o arquivo `.env` e defina uma senha própria para `POSTGRES_PASSWORD`. O valor de exemplo é apenas para desenvolvimento local e não deve ser usado em produção.
+Edite o arquivo `.env` e defina uma senha própria para `POSTGRES\_PASSWORD`. O valor de exemplo é apenas para desenvolvimento local e não deve ser usado em produção.
 
-### 3. Inicie os serviços
+### 3\. Inicie os serviços
 
 ```bash
 docker compose up --build -d
@@ -159,7 +159,7 @@ docker compose ps
 
 Acesse a aplicação em **http://localhost:8080**.
 
-### 4. Consulte os logs
+### 4\. Consulte os logs
 
 ```bash
 docker compose logs -f app
@@ -171,13 +171,13 @@ Para acompanhar o banco:
 docker compose logs -f db
 ```
 
-### 5. Encerre o ambiente
+### 5\. Encerre o ambiente
 
 ```bash
 docker compose down
 ```
 
-Os dados ficam no volume Docker `techdocs_data`. Para apagar também o banco persistido e começar do zero:
+Os dados ficam no volume Docker `techdocs\_data`. Para apagar também o banco persistido e começar do zero:
 
 ```bash
 docker compose down -v
@@ -189,18 +189,18 @@ docker compose down -v
 
 ### Pré-requisitos
 
-- JDK 21;
-- Maven 3.9 ou superior;
-- PostgreSQL 16.
+* JDK 21;
+* Maven 3.9 ou superior;
+* PostgreSQL 16.
 
 Crie um banco chamado `techdocs` e um usuário com permissão de acesso. Configure as variáveis de ambiente antes de iniciar a aplicação.
 
 Linux/macOS:
 
 ```bash
-export SPRING_DATASOURCE_URL='jdbc:postgresql://localhost:5432/techdocs'
-export SPRING_DATASOURCE_USERNAME='techdocs'
-export SPRING_DATASOURCE_PASSWORD='sua-senha-local'
+export SPRING\_DATASOURCE\_URL='jdbc:postgresql://localhost:5432/techdocs'
+export SPRING\_DATASOURCE\_USERNAME='techdocs'
+export SPRING\_DATASOURCE\_PASSWORD='sua-senha-local'
 
 mvn spring-boot:run
 ```
@@ -208,9 +208,9 @@ mvn spring-boot:run
 Windows PowerShell:
 
 ```powershell
-$env:SPRING_DATASOURCE_URL = "jdbc:postgresql://localhost:5432/techdocs"
-$env:SPRING_DATASOURCE_USERNAME = "techdocs"
-$env:SPRING_DATASOURCE_PASSWORD = "sua-senha-local"
+$env:SPRING\_DATASOURCE\_URL = "jdbc:postgresql://localhost:5432/techdocs"
+$env:SPRING\_DATASOURCE\_USERNAME = "techdocs"
+$env:SPRING\_DATASOURCE\_PASSWORD = "sua-senha-local"
 
 mvn spring-boot:run
 ```
@@ -237,25 +237,25 @@ Os testes configuram o banco H2 em memória; não é necessário iniciar o Postg
 
 Base URL: `http://localhost:8080/api/documents`
 
-| Método | Endpoint | Descrição |
-|---|---|---|
-| `GET` | `/api/documents` | Lista os documentos |
-| `GET` | `/api/documents?q=backup` | Pesquisa por texto |
-| `GET` | `/api/documents?category=Linux` | Filtra por categoria |
-| `GET` | `/api/documents?status=PUBLISHED` | Filtra por status |
-| `GET` | `/api/documents/{id}` | Consulta um documento pelo ID |
-| `POST` | `/api/documents` | Cadastra um documento |
-| `PUT` | `/api/documents/{id}` | Atualiza um documento |
-| `DELETE` | `/api/documents/{id}` | Exclui um documento |
-| `GET` | `/api/documents/stats` | Retorna indicadores do dashboard |
-| `GET` | `/api/documents/categories` | Lista as categorias existentes |
-| `GET` | `/api/documents/export` | Exporta metadados em JSON |
+|Método|Endpoint|Descrição|
+|-|-|-|
+|`GET`|`/api/documents`|Lista os documentos|
+|`GET`|`/api/documents?q=backup`|Pesquisa por texto|
+|`GET`|`/api/documents?category=Linux`|Filtra por categoria|
+|`GET`|`/api/documents?status=PUBLISHED`|Filtra por status|
+|`GET`|`/api/documents/{id}`|Consulta um documento pelo ID|
+|`POST`|`/api/documents`|Cadastra um documento|
+|`PUT`|`/api/documents/{id}`|Atualiza um documento|
+|`DELETE`|`/api/documents/{id}`|Exclui um documento|
+|`GET`|`/api/documents/stats`|Retorna indicadores do dashboard|
+|`GET`|`/api/documents/categories`|Lista as categorias existentes|
+|`GET`|`/api/documents/export`|Exporta metadados em JSON|
 
 ### Exemplo: cadastrar um documento
 
 ```bash
-curl -X POST http://localhost:8080/api/documents \
-  -H 'Content-Type: application/json' \
+curl -X POST http://localhost:8080/api/documents \\
+  -H 'Content-Type: application/json' \\
   -d '{
     "title": "Validar backup PostgreSQL",
     "category": "Backup",
@@ -270,34 +270,40 @@ Status disponíveis: `DRAFT` (rascunho), `PUBLISHED` (publicado) e `ARCHIVED` (a
 
 ## 🔐 Segurança e limitações conhecidas
 
-- O projeto não implementa autenticação, autorização por perfil ou trilha de auditoria.
-- Não exponha a aplicação publicamente nem armazene senhas, tokens, chaves privadas, dados pessoais ou procedimentos confidenciais.
-- A configuração `spring.jpa.hibernate.ddl-auto=update` facilita o desenvolvimento; em produção, prefira migrações versionadas e uma estratégia controlada de evolução do banco.
-- Configure uma senha forte e exclusiva fora do ambiente local.
-- A exportação atual disponibiliza metadados em JSON; exportação CSV e anexos não estão implementados.
-- A aplicação ainda não possui paginação na listagem.
+* O projeto não implementa autenticação, autorização por perfil ou trilha de auditoria.
+* Não exponha a aplicação publicamente nem armazene senhas, tokens, chaves privadas, dados pessoais ou procedimentos confidenciais.
+* A configuração `spring.jpa.hibernate.ddl-auto=update` facilita o desenvolvimento; em produção, prefira migrações versionadas e uma estratégia controlada de evolução do banco.
+* Configure uma senha forte e exclusiva fora do ambiente local.
+* A exportação atual disponibiliza metadados em JSON; exportação CSV e anexos não estão implementados.
+* A aplicação ainda não possui paginação na listagem.
 
 ## 🗺️ Roadmap
 
-- [ ] Implementar autenticação e autorização por função.
-- [ ] Criar histórico de alterações e fluxo de revisão de documentos.
-- [ ] Adicionar exportação CSV e suporte a anexos.
-- [ ] Adicionar migrações de banco com Flyway.
-- [ ] Implementar paginação e ordenação configurável.
-- [ ] Documentar a API com OpenAPI/Swagger.
-- [ ] Ampliar a cobertura de testes e validar fluxos de erro.
-
-## 🤝 Contribuição
-
-Sugestões e melhorias são bem-vindas. Para contribuir, crie uma branch, implemente a alteração, execute `mvn verify` e abra um pull request descrevendo o que foi modificado.
+* \[ ] Implementar autenticação e autorização por função.
+* \[ ] Criar histórico de alterações e fluxo de revisão de documentos.
+* \[ ] Adicionar exportação CSV e suporte a anexos.
+* \[ ] Adicionar migrações de banco com Flyway.
+* \[ ] Implementar paginação e ordenação configurável.
+* \[ ] Documentar a API com OpenAPI/Swagger.
+* \[ ] Ampliar a cobertura de testes e validar fluxos de erro.
 
 ## 👨‍💻 Autor
 
-**Matheus Marks**  
-GitHub: [@devbymarks](https://github.com/devbymarks)
+**Matheus Marks**
 
-Se este projeto foi útil para você, considere deixar uma ⭐ no repositório.
+Projeto desenvolvido com foco em centralização do conhecimento técnico, documentação de procedimentos e organização de informações operacionais de TI.
 
-## 📄 Licença
+O TechDocs permite reunir orientações e procedimentos em uma biblioteca pesquisável, facilitando o compartilhamento de conhecimento, a padronização de rotinas e a consulta por equipes técnicas.
 
-Nenhuma licença foi identificada nos arquivos atuais. Defina uma licença antes de permitir formalmente a reutilização ou distribuição do código.
+
+
+\---
+
+## ⭐ Apoie o projeto
+
+Se este projeto foi útil para você, considere deixar uma ⭐ no repositório. 
+
+
+
+
+
