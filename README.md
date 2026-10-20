@@ -4,17 +4,17 @@
 
 **Uma biblioteca centralizada para documentar, pesquisar e compartilhar procedimentos técnicos de TI.**
 
-[!\[Java](https://img.shields.io/badge/Java-21-orange?logo=openjdk\&logoColor=white)](https://www.oracle.com/java/)
-[!\[Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5-brightgreen?logo=springboot\&logoColor=white)](https://spring.io/projects/spring-boot)
-[!\[PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1?logo=postgresql\&logoColor=white)](https://www.postgresql.org/)
-[!\[Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker\&logoColor=white)](https://www.docker.com/)
-[!\[License](https://img.shields.io/badge/License-a%20definir-lightgrey)](#-licença)
+[![Java](https://img.shields.io/badge/Java-21-orange?logo=openjdk\&logoColor=white)](https://www.oracle.com/java/)
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5-brightgreen?logo=springboot\&logoColor=white)](https://spring.io/projects/spring-boot)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1?logo=postgresql\&logoColor=white)](https://www.postgresql.org/)
+[![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker\&logoColor=white)](https://www.docker.com/)
+[![License](https://img.shields.io/badge/License-a%20definir-lightgrey)](#-licença)
 
 *English description: A technical knowledge base for documenting, organizing, and searching IT procedures.*
 
 </div>
 
-\---
+---
 
 ## 🎯 Sobre o projeto
 
@@ -294,10 +294,6 @@ Status disponíveis: `DRAFT` (rascunho), `PUBLISHED` (publicado) e `ARCHIVED` (a
 Projeto desenvolvido com foco em centralização do conhecimento técnico, documentação de procedimentos e organização de informações operacionais de TI.
 
 O TechDocs permite reunir orientações e procedimentos em uma biblioteca pesquisável, facilitando o compartilhamento de conhecimento, a padronização de rotinas e a consulta por equipes técnicas.
-
-
-
-\---
 
 ## ⭐ Apoie o projeto
 
